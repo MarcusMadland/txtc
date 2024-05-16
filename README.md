@@ -1,6 +1,6 @@
 # txtc
 
-txtc is a simple command-line tool designed to convert C/C++ files to plain text (txt) files. This utility is particularly useful for those who wish to add their source code repositories as training data for [RTX Chat AI](https://github.com/rtx-ai) or similar projects.
+txtc is a simple command-line tool designed to convert C/C++ files to plain text (txt) files. This utility is particularly useful for those who wish to add their source code repositories as training data for [RTX Chat AI]([https://github.com/rtx-ai](https://www.nvidia.com/nb-no/ai-on-rtx/chatrtx/)) or similar projects.
 
 ## Features
 
@@ -40,7 +40,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-Special thanks to [RTX Chat AI](https://github.com/rtx-ai) for inspiring this project and providing the motivation to create a simple conversion tool.
+Special thanks to [RTX Chat AI]([https://github.com/rtx-ai](https://www.nvidia.com/nb-no/ai-on-rtx/chatrtx/)) for inspiring this project and providing the motivation to create a simple conversion tool.
 
 ## Disclaimer
 
