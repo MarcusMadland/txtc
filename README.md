@@ -1,6 +1,6 @@
 # txtc
 
-txtc is a simple cross-platform command-line tool designed to convert C/C++ files to plain text (txt) files. This utility is particularly useful for those who wish to add their source code repositories as training data for [RTX Chat AI](https://www.nvidia.com/nb-no/ai-on-rtx/chatrtx/) or similar projects.
+txtc is a simple cross-platform command-line tool designed to convert C/C++ files to plain text (txt) files. 
 
 ## Features
 
@@ -28,20 +28,38 @@ Once compiled, you can use txtc from the command line:
 ./txtc input_folder output_folder -r 
 ```
 
-Replace `input_file` with the folder to your C/C++ files and `output_file` with the desired name for the generated folder. Use the `-r` flag to recursively convert each child folder within the input folder.
+Replace `input_folder` with the folder to your C/C++ files and `output_folder` with the desired name for the generated folder. Use the `-r` flag to recursively convert each child folder within the input folder.
 
 ## Contribution
 
 Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
 
-## License
+[License (BSD 2-clause)](https://marcusmadland.github.io/txtc/license.html)
+-----------------------------------------------------------------------
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">
+<img align="right" src="https://opensource.org/wp-content/uploads/2022/10/osi-badge-dark.svg" width="100" height="137">
+</a>
 
-## Acknowledgements
-
-Special thanks to [RTX Chat AI](https://www.nvidia.com/nb-no/ai-on-rtx/chatrtx/)  for inspiring this project and providing the motivation to create a simple conversion tool.
-
-## Disclaimer
-
-This tool is provided as-is, without any warranties. Use it at your own risk.
+	Copyright 2024 Marcus Madland
+	
+	Redistribution and use in source and binary forms, with or without modification,
+	are permitted provided that the following conditions are met:
+	
+	   1. Redistributions of source code must retain the above copyright notice, this
+	      list of conditions and the following disclaimer.
+	
+	   2. Redistributions in binary form must reproduce the above copyright notice,
+	      this list of conditions and the following disclaimer in the documentation
+	      and/or other materials provided with the distribution.
+	
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+	IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+	INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+	BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+	OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+	OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+	OF THE POSSIBILITY OF SUCH DAMAGE.
