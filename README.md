@@ -13,7 +13,7 @@ txtc is a simple cross-platform command-line tool designed to convert C/C++ file
 You can clone this repository and build the tool using a C++ compiler.
 
 ```bash
-git clone https://github.com/your_username/txtc.git
+git clone https://github.com/marcusmadland/txtc.git
 cd txtc
 mkdir build
 cd build
@@ -30,11 +30,7 @@ Once compiled, you can use txtc from the command line:
 
 Replace `input_folder` with the folder to your C/C++ files and `output_folder` with the desired name for the generated folder. Use the `-r` flag to recursively convert each child folder within the input folder.
 
-## Contribution
-
-Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
-
-[License (BSD 2-clause)](https://marcusmadland.github.io/txtc/license.html)
+[License (BSD 2-clause)](https://github.com/MarcusMadland/txtc/blob/main/LICENSE)
 -----------------------------------------------------------------------
 
 <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">
