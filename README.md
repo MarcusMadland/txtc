@@ -10,7 +10,7 @@ txtc is a simple cross-platform command-line tool designed to convert C/C++ file
 
 ## Installation
 
-You can clone this repository and build the tool using a C++ compiler.
+You can get the compiled binary from latest release or clone the repository and build the tool using a C++ compiler.
 
 ```bash
 git clone https://github.com/marcusmadland/txtc.git
