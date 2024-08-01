@@ -1,8 +1,11 @@
-# txtc
+txtc
+==
 
-txtc is a simple cross-platform command-line tool designed to convert C/C++ files to plain text (txt) files. 
+Simple cross-platform command-line tool designed to convert C/C++ files to plain text (txt) files. 
 
-## Features
+[![License](https://img.shields.io/badge/license-BSD--2%20clause-blue.svg)](https://bkaradzic.github.io/bgfx/license.html)
+
+Goals:
 
 - Converts C/C++ files to plain text format.
 - Minimalistic and straightforward tool focused solely on conversion.
@@ -30,8 +33,16 @@ Once compiled, you can use txtc from the command line:
 
 Replace `input_folder` with the folder to your C/C++ files and `output_folder` with the desired name for the generated folder. Use the `-r` flag to recursively convert each child folder within the input folder.
 
-[License (BSD 2-clause)](https://github.com/MarcusMadland/txtc/blob/main/LICENSE)
------------------------------------------------------------------------
+Contact
+-------
+
+[marcus@madland.info](marcus@madland.info)  
+
+Project page  
+https://github.com/marcusmadland/bx
+
+[License (BSD 2-clause)](https://github.com/bkaradzic/bx/blob/master/LICENSE)
+-----------------------------------------------------------------------------
 
 <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">
 <img align="right" src="https://opensource.org/wp-content/uploads/2022/10/osi-badge-dark.svg" width="100" height="137">
