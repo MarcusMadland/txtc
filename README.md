@@ -39,7 +39,7 @@ Contact
 [marcus@madland.info](marcus@madland.info)  
 
 Project page  
-https://github.com/marcusmadland/bx
+https://github.com/marcusmadland/txtc
 
 [License (BSD 2-clause)](https://github.com/bkaradzic/bx/blob/master/LICENSE)
 -----------------------------------------------------------------------------
