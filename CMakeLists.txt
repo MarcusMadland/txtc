@@ -24,6 +24,7 @@ endif()
 
 if(MSVC AND (MSVC_VERSION GREATER_EQUAL 1914))
 	add_compile_options("/Zc:__cplusplus")
+	add_compile_options("/Zc:preprocessor")
 endif()
 
 include(CMakeDependentOption)

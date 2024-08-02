@@ -1,6 +1,6 @@
 /*
- * Copyright 2011-2024 Branimir Karadzic. All rights reserved.
- * License: https://github.com/bkaradzic/bgfx/blob/master/LICENSE
+ * Copyright 2024 Marcus Madland. All rights reserved.
+ * License: https://github.com/marcusmadland/txtc/blob/main/LICENSE
  */
 
 #include <algorithm>
@@ -232,59 +232,6 @@ int main(int _argc, const char* _argv[])
 	}
 
 	processDirectory(folderPath, outFolderPath, recursive);
-	/*
-	bx::DirectoryReader dr;
-	if (!bx::open(&dr, folderPath))
-	{
-		bx::printf("Unable to open input folder '%s'.\n", folderPath);
-		return bx::kExitFailure;
-	}
-	
-	bx::FileInfo fileInfo;
-	while (bx::read(&dr, &fileInfo, sizeof(fileInfo), &err) > 0)
-	{
-		if (fileInfo.type == bx::FileType::File)
-		{
-			const bx::FilePath filePath = fileInfo.filePath;
-
-			bx::StringView ext = filePath.getExt();
-			if (0 == bx::strCmpI(ext, ".h") ||
-				0 == bx::strCmpI(ext, ".c") ||
-				0 == bx::strCmpI(ext, ".hpp") ||
-				0 == bx::strCmpI(ext, ".cpp"))
-			{
-				bx::FilePath inFilePath = folderPath;
-				inFilePath.join(filePath.getFileName());
-
-				bx::FilePath outFilePath = outFolderPath;
-				stl::string fileName = filePath.getFileName().getPtr();
-				fileName.append(".txt");
-				outFilePath.join(fileName.c_str());
-
-				convert(inFilePath, outFilePath);
-			}
-			else
-			{
-				bx::printf("Unsupported input file format '%s', skipping this file...\n", filePath);
-			}
-		}
-		else if (fileInfo.type == bx::FileType::Dir && recursive)
-		{
-			
-		}
-	}
-	bx::close(&dr);*/
-
-	/*
-	bx::printf("parse %f [s]\ntri reorder %f [s]\nconvert %f [s]\ng %d, p %d, v %d, i %d\n"
-		, double(parseElapsed)/bx::getHPFrequency()
-		, double(triReorderElapsed)/bx::getHPFrequency()
-		, double(convertElapsed)/bx::getHPFrequency()
-		, uint32_t(mesh.m_groups.size()-1)
-		, writtenPrimitives
-		, writtenVertices
-		, writtenIndices
-		);*/
 
 	return bx::kExitSuccess;
 }
