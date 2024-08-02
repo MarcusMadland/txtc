@@ -10,3 +10,4 @@
 *.sc  eol=lf
 *.sh  eol=lf
 makefile eol=lf
+/cmake/bx* linguist-language=text
